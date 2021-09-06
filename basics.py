@@ -26,11 +26,10 @@ small_bat = cv.resize(img, (int(0.5*_width),int(0.5*_height)), interpolation=cv.
 
 #%%
 
-if False:
-    cv.imshow('bat', img)
-    cv.imshow('small_bat', small_bat)
-    cv.waitKey(0)
-    cv.destroyAllWindows()
+cv.imshow('bat', img)
+cv.imshow('small_bat', small_bat)
+cv.waitKey(0)
+cv.destroyAllWindows()
 #%%
 
 # TODO cv.imwrite()
@@ -39,35 +38,34 @@ print(f'img.ndim == {img.ndim}')
 print(f'type(img) == {type(img)}') # "nd" as in multidimensional
 print(f'img.dtype == {img.dtype}') # uint8 yeah
 
-if False:
-    # assume RGB to lose
-    teal = np.zeros_like(img)
-    teal[:,:] = (0,128,128)
+# assume RGB to lose
+teal = np.zeros_like(img)
+teal[:,:] = (0,128,128)
 
-    olive = np.zeros_like(img)
-    olive[:,:] = (128,128,0)
+olive = np.zeros_like(img)
+olive[:,:] = (128,128,0)
 
-    cv.imshow('teal?', teal)
-    cv.imshow('olive?', olive)
-    cv.waitKey(0)
-    cv.destroyAllWindows()
+cv.imshow('teal?', teal)
+cv.imshow('olive?', olive)
+cv.waitKey(0)
+cv.destroyAllWindows()
 
-    print('it is actually BGR')
-    teal[:,:] = (128,128,0)
-    olive[:,:] = (0,128,128)
+print('it is actually BGR')
+teal[:,:] = (128,128,0)
+olive[:,:] = (0,128,128)
 
 
-    red = np.ones_like(img) * np.array([0, 0, 255], dtype=np.uint8)
-    green = np.ones_like(img) * np.array([0, 250, 0], dtype=np.uint8)
-    blue = np.ones_like(img) * np.array([255, 0, 0], dtype=np.uint8)
+red = np.ones_like(img) * np.array([0, 0, 255], dtype=np.uint8)
+green = np.ones_like(img) * np.array([0, 250, 0], dtype=np.uint8)
+blue = np.ones_like(img) * np.array([255, 0, 0], dtype=np.uint8)
 
-    cv.imshow('teal!=)', teal)
-    cv.imshow('olive!=)', olive)
-    cv.imshow('red', red)
-    cv.imshow('green', green)
-    cv.imshow('blue', blue)
-    cv.waitKey(0)
-    cv.destroyAllWindows()
+cv.imshow('teal!=)', teal)
+cv.imshow('olive!=)', olive)
+cv.imshow('red', red)
+cv.imshow('green', green)
+cv.imshow('blue', blue)
+cv.waitKey(0)
+cv.destroyAllWindows()
 
 #%%
 # drawing
