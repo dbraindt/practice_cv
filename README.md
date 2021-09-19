@@ -24,15 +24,19 @@ object detection
 [x] put batman in spotlight - hello world
 [x] tanchik - basic drill
 [x] polzunok - set up a UI for manual image preprocessing
+[x] Peshka! side project
 [x] alpha/beta/gamma - play with manually using polzunok
 [x] histogram
 [ ] 2D histogram
-[ ] histogram equalization < preprocessing
-[ ] thresholding, adaptive thresholding
+[ ] thresholding
+[ ] adaptive thresholding
 [ ] FreeCAD - make a box with primitives?
 
 
-
+[ ] PSNR - peak signal to noise ratio
+[ ] histogram equalization < preprocessing
+[ ] Kalman filter?
+    - adaptive magic thingamagik
 
 face
 target
@@ -87,6 +91,40 @@ https://github.com/opencv/opencv/issues/18813
 completely unrelated thing, but
 
 # Harris corner detector
+
+
+
+# nifties
+
+https://docs.opencv.org/3.4/d8/dbc/tutorial_histogram_calculation.html
+https://wiki.freecadweb.org/Python_scripting_tutorial
+https://numpy.org/doc/stable/reference/generated/numpy.clip.html?highlight=np%20clip
+https://docs.opencv.org/3.4/df/d9d/tutorial_py_colorspaces.html
+
+# FreeCAD
+
+It's not clear how to pip-install it.
+
+https://community.chocolatey.org/packages/freecad
+
+https://github.com/FreeCAD/FreeCAD/releases
+
+conda install maybe?
+
+# cadquery
+
+https://cadquery.readthedocs.io/en/latest/intro.html
+
+https://github.com/CadQuery/cadquery
+
+
+OpenCascade, CadQuery, what?
+
+> The original version of CadQuery was built on the FreeCAD API. This was great because it allowed for fast development and easy cross-platform capability. However, we eventually started reaching the limits of the API for some advanced operations and selectors. This 2.0 version of CadQuery is based directly on a Python wrapper of the OCCT kernel.
+
+install is through conda
+
+(miniconda)[https://docs.conda.io/en/latest/miniconda.html]
 
 
 
