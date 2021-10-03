@@ -21,25 +21,27 @@ object detection
 
 
 # current projects
+
 [x] put batman in spotlight - hello world
 [x] tanchik - basic drill
 [x] polzunok - set up a UI for manual image preprocessing
 [x] Peshka! side project
 [x] alpha/beta/gamma - play with manually using polzunok
 [x] histogram
-[ ] 2D histogram
+[x] 2D histogram
+[ ] histogram equilization techniques article
 [ ] thresholding
 [ ] adaptive thresholding
 [ ] FreeCAD - make a box with primitives?
-
 
 [ ] PSNR - peak signal to noise ratio
 [ ] histogram equalization < preprocessing
 [ ] Kalman filter?
     - adaptive magic thingamagik
 
-face
-target
+[ ] Computer Vision Modern approach 1st chapter
+
+
 
 
 # background learning
